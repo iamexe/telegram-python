@@ -169,7 +169,7 @@ Which one do you take?"""
         await context.bot.send_message(chat_id=update.effective_chat.id, text=msg)
 
 if __name__ == '__main__':
-    application = ApplicationBuilder().token('5908742207:AAHqP9VpsDmmOoSrCvFznZd83vAFJqvvEfk').build()
+    application = ApplicationBuilder().token('TOKEN').build()
 
     start_handler = CommandHandler('start', start)
 
